@@ -1,4 +1,4 @@
-from pydantic import EmailStr
+
 from sqlalchemy import Column, Integer, String, Boolean, func, Table, DateTime, Date
 from sqlalchemy.orm import relationship
 from sqlalchemy.sql.schema import ForeignKey

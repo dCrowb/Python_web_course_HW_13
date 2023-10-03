@@ -11,9 +11,13 @@ sqlalchemy = "*"
 psycopg2 = "*"
 pydantic = {version = "*", extras = ["email"]}
 passlib = "*"
-jose = "*"
 libgravatar = "*"
 cloudinary = "*"
+uvicorn = {version = "*", extras = ["standard"]}
+pydantic-settings = "*"
+python-jose = "*"
+python-multipart = "*"
+fastapi-mail = "*"
 
 [dev-packages]
 
